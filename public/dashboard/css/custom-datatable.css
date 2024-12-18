@@ -1,0 +1,97 @@
+table.dataTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Tabler-like header for DataTable */
+table.dataTable thead {
+    background-color: #f4f6f9;  /* Tabler's light background for header */
+    color: #495057;  /* Dark text color */
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Light bottom border */
+}
+
+table.dataTable thead th {
+    padding: 12px 15px !important;
+    border-right: 1px solid #e1e6f0;
+}
+
+/* Tabler-like row styling for DataTable */
+table.dataTable tbody tr {
+    background-color: #ffffff;  /* White background for rows */
+    border-bottom: 1px solid #e1e6f0; /* Light bottom border */
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #f8f9fa;  /* Light gray hover effect */
+}
+
+table.dataTable tbody td {
+    padding: 12px 15px;
+}
+
+/* Rounded corners for the header */
+table.dataTable thead th:first-child {
+    border-top-left-radius: 8px;
+}
+
+table.dataTable thead th:last-child {
+    border-top-right-radius: 8px;
+}
+
+/* Custom pagination and search input to fit Tabler style */
+.dataTables_filter input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #e1e6f0;
+}
+
+.dataTables_paginate .paginate_button {
+    border: 1px solid #e1e6f0;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #495057;
+}
+
+.dataTables_paginate .paginate_button.current {
+    background-color: #4c6ef5;
+    color: white;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background-color: #e1e6f0;
+}
+
+.dt-layout-row{
+    padding: 1px 20px;
+}
+.dt-layout-full{
+    border: 1px solid rgba(4, 32, 69, 0.14);;
+}
+table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataTable td.dt-type-numeric, table.dataTable td.dt-type-date {
+    text-align: left !important;
+}
+table.dataTable > thead > tr > th, table.dataTable > thead > tr > td {
+    border-bottom: 1px solid rgb(166 166 166 / 30%);
+}
+div.dt-container.dt-empty-footer tbody > tr:last-child > * {
+    padding: 13px 15px !important;
+    border-bottom: none;
+}
+
+div.dt-container .dt-paging .dt-paging-button:hover {
+    color: white !important;
+    border: 1px solid #0054a6;
+    background: linear-gradient(to bottom, #0054a6 0%, #0054a6 100%);
+}
+div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover {
+    border: 1px solid rgb(220 224 229);
+}
+.markdown>table thead th, .table thead th {
+    background: #f6f8fb !important;
+}
+
+div.dt-container .dt-search input {
+    border: 1px solid rgb(220 224 229);
+}

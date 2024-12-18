@@ -1,0 +1,271 @@
+/* ------------------------------------------------------- *\
+ * NAVBAR
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] .menu-right .iconright li:first-child {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+html[dir="rtl"] .menu-right .iconright li:last-child {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+html[dir="rtl"] .white nav ul li {
+    position: relative;
+}
+
+html[dir="rtl"] .white nav ul li:last-child {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .white nav ul ul {
+    right: 0;
+}
+
+html[dir="rtl"] .white nav ul ul li a {
+    text-align: right;
+}
+
+html[dir="rtl"] .menu-right .iconright li a .tot {
+    right: -12px;
+    left: auto;
+}
+
+html[dir="rtl"] ul.shop.search {
+    left: 0;
+    right: auto;
+}
+
+html[dir="rtl"] form.search-form input.search-submit {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+/* ------------------------------------------------------- *\
+ * SHOP
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] ul.shop {
+    left: 60%;
+    right: auto;
+}
+
+html[dir="rtl"] ul.shop li a.xcancel {
+    left: -20px;
+    right: auto;
+}
+
+/* ------------------------------------------------------- *\
+ * SIDEGALERY
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] #sidegalery.show {
+    right: auto;
+    left: 0;
+}
+
+html[dir="rtl"] .cl-sidebar.show {
+    right: auto;
+    left: 0;
+}
+
+html[dir="rtl"] .sidebar h3 {
+    text-align: right;
+}
+
+html[dir="rtl"] .sidebar .s-social {
+    text-align: right;
+}
+
+/* ------------------------------------------------------- *\
+ * PROJECTS
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] .slick .item .desc {
+    text-align: right;
+    right: 25px;
+}
+
+html[dir="rtl"] .slickproject .item .icon {
+    text-align: right;
+    left: auto;
+    right: 25px;
+}
+
+/* ------------------------------------------------------- *\
+ * SERVICE
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] .content {
+    right: 10%;
+    left: auto;
+}
+
+/* ------------------------------------------------------- *\
+ * COLOUMN BLOG
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] .blogcolumn .blogcont {
+    text-align: right;
+}
+
+/* ------------------------------------------------------- *\
+ * CTA
+\* ------------------------------------------------------- */
+
+.centered {
+    text-align: right;
+}
+
+/* ------------------------------------------------------- *\
+ * FOOTER
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] footer {
+    text-align: right;
+}
+
+html[dir="rtl"] .s-address .detail {
+    display: flex;
+}
+
+html[dir="rtl"] .s-address .detail span {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+html[dir="rtl"] #subsribe input[type="submit"] {
+    right: auto;
+    left: 0px;
+}
+
+/* ------------------------------------------------------- *\
+ * TOTAPP
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] #totop {
+    right: auto;
+    left: 20px;
+}
+
+/* ******************************************************* *\
+ * PAGE BLOG
+\* ******************************************************* */
+
+/**
+ * GO TO PAGE BLOG
+ */
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- *\
+ * WIDGET
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] aside {
+    text-align: right;
+}
+
+html[dir="rtl"] .btn-s-input {
+    right: auto;
+    left: 0px;
+}
+
+/* ------------------------------------------------------- *\
+ * SECTION
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] .blog-simple {
+    text-align: right;
+}
+
+html[dir="rtl"] .spanpost {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+html[dir="rtl"] .blog-simple .blog-text span.user-post {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+html[dir="rtl"] .blog-simple .blog-text span.user-post i {
+    padding-right: 0;
+    padding-left: 7px;
+}
+
+html[dir="rtl"] .blog-simple .blog-text span.date-post {
+    margin-inline: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+html[dir="rtl"] .blog-simple .blog-text span.date-post i {
+    padding-right: 0;
+    padding-left: 7px;
+}
+
+html[dir="rtl"] .blog-simple .blog-text span.comment a {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.blog-simple .blog-text span.comment a i {
+    padding-right: 0;
+    padding-left: 7px;
+}
+
+
+/* ******************************************************* *\
+ * PAGE PORTFOLIO
+\* ******************************************************* */
+
+/**
+ * GO TO PAGE PORTFOLIO
+ */
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- *\
+ * GALLARY
+\* ------------------------------------------------------- */
+
+html[dir="rtl"] section {
+    text-align: right;
+}
+
+html[dir="rtl"] .blog-simple {
+    text-align: right;
+}
+
+html[dir="rtl"] .blog-simple .blog-text span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.comment-info .c-date{
+    float: left;
+}
